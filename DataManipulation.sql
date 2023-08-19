@@ -320,7 +320,22 @@ REVOKE SELECT ON StudentsInfo TO MASERYU;
 /* TCL commands try and catch blocks. PRINT == cout */
 
 
+/* 
 
+Stored Procedure Formatting. Similar to functions. 
+
+CREATE [OR REPLACE] PROCEDURE
+    procedure name[
+        (parameter_name[IN|OUT|IN OUT] type [])]
+        {IS | AS}
+        BEGIN [declaration-section]
+            executable section
+            //SQL Statement used in stored procure
+        END
+    ]
+    GO
+
+ */
 
 
 
